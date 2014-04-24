@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Y2H - Home Page</title>
+
+    <link rel="stylesheet" href="css/foundation/foundation.css"/>
+    <link rel="stylesheet" href="css/foundation/icons/foundation-icons.css"/>
+
+    <link rel="shortcut icon" href="river_of_life_16x16.ico"/>
+
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div class="row">
+    <div class="small-12 columns">
+        <div class="off-canvas-wrap" data-offcanvas>
+            <div class="inner-wrap">
+                <nav class="tab-bar">
+                    <section class="left-small">
+                        <!--link to open left off canvas menu-->
+                        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+                    </section>
+
+                    <section class="middle tab-bar-section">
+                        <h1 class="title">Y2H</h1>
+                    </section>
+
+                    <section class="right-small" style="text-align:center">
+                        <!--link to open right off canvas menu-->
+                        <a class="right-off-canvas-toggle" href="#"><i class="fi-widget" style="color:white"></i></a>
+                    </section>
+                </nav>
+
+                <!--left off canvas menu-->
+                <aside class="left-off-canvas-menu">
+                    <ul class="off-canvas-list">
+                        <li><label>Home</label></li>
+                        <li><a href="#">Reminders</a></li>
+                        <li><a href="#">Health Records</a></li>
+                        <li><a href="#">Payments</a></li>
+                    </ul>
+                </aside>
+
+                <!--right off canvas menu-->
+                <aside class="right-off-canvas-menu">
+                    <ul class="off-canvas-list">
+                        <li><a href="#">Sign out</a></li>
+                    </ul>
+                </aside>
+
+                <section class="main-section">
+                    <!-- content goes here -->
+                    <h1>Welcome to Y2H!</h1>
+                    
+                    <img data-interchange="[img/river_of_life_1024x681.jpg, (only screen)], [img/river_of_life_320x213.jpg, (small)], [img/river_of_life_768x511.jpg, (medium)]]">
+                    <noscript><img src="img/river_of_life_1024x681.jpg"></noscript>
+
+                    <p>A journey to better health.</p>
+                </section>
+
+                <!--link to exit the off canvas menu-->
+                <a class="exit-off-canvas"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>
