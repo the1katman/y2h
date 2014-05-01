@@ -28,7 +28,7 @@
                     </section>
 
                     <section class="middle tab-bar-section">
-                        <h1 class="title">Y2H</h1>
+                        <a href="#"><h1 class="title">Y2H</h1></a>
                     </section>
 
                     <section class="right-small" style="text-align:center">
@@ -45,25 +45,33 @@
                         <li><a href="#">Home</a></li>
                     </ul>
                     <ul class="off-canvas-list">
-                        <li><label>Notifications</label></li>
-                        <li><a href="#">Reminders</a></li>
+                        <li><label>Schedule</label></li>
+                        <li><a href="#">Notifications</a></li>
                         <li><a href="#">Appointments</a></li>
                     </ul>
                     <ul class="off-canvas-list">
                         <li><label>Health</label></li>
                         <li><a href="#">Health Records</a></li>
+                        <li><a href="issues.html">Issues</a></li>
+                        <li><a href="#">Tracking / Monitoring</a></li>
                         <li><a href="#">Prescriptions</a></li>
-                        <li><a href="#">Monitoring / Tracking</a></li>
                         <li><a href="#">Health Groups</a></li>
                     </ul>
                     <ul class="off-canvas-list">
                         <li><label>Discover</label></li>
-                        <li><a href="#">Age Development Guide</a></li>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Development Guide</a></li>
                         <li><a href="#">HealthWiki</a></li>
                     </ul>
                     <ul class="off-canvas-list">
+                        <li><label>Professionals</label></li>
+                        <li><a href="#">Find Health Professional</a></li>
+                        <li><a href="#">Find Medical Attorney</a></li>
+                    </ul>
+                    <ul class="off-canvas-list">
                         <li><label>Connect</label></li>
-                        <li><a href="#">News / Events</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Events</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Forums</a></li>
                     </ul>
@@ -99,69 +107,11 @@
                 <section class="main-section">
                     <!-- content goes here -->
 
-                    <!-- health group filter for small only-->
-                    <div class="show-for-small-only" style="margin-bottom:0">
-                        <dl class="sub-nav" style="margin-top:0.5rem;margin-bottom:0.5rem;line-height:1rem">
-                            <dt>Health Group:</dt>
-                            <dd class="active"><a href="#">Family</a></dd>
-                        </dl>
-                        <dl class="sub-nav" style="line-height:0.5rem;margin-bottom:0">
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Mom</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Dad</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Junior</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Susie</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Indiana</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                        </dl>
-                    </div>
-
-                    <!-- health group filter for medium up-->
-                    <div class="show-for-medium-up">
-                        <dl class="sub-nav" style="margin-top:0.5rem;margin-bottom:0;line-height:1rem">
-                            <dt>Health Group:</dt>
-                            <dd class="active"><a href="#">Family</a></dd>
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Mom</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Dad</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Junior</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Susie</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                            <dd style="text-transform:uppercase">
-                                <a href="#" style="font-size:0.8rem;font-weight:bold;color:cornflowerblue">Indiana</a>
-                                <a href="#" style="font-size:1.2rem"><i class="fi-x-circle"></i></a>
-                            </dd>
-                        </dl>
-                    </div>
-
                     <div>
                         <ul class="small-block-grid-2 medium-block-grid-3" style="text-align:center;font-size:4.25rem">
                             <li>
                                 <div style="height:5.75rem">
-                                    <a href="#" style="color:orangered">
+                                    <a href="#" style="color:tomato">
                                         <i class="fi-alert"></i>
                                     </a>
                                 </div>
@@ -185,6 +135,18 @@
                             </li>
                             <li>
                                 <div style="height:5.75rem">
+                                    <a href="issues.html" style="color:maroon">
+                                        <i class="fi-first-aid"></i>
+                                    </a>
+                                </div>
+                                <div style="height:1.5rem">
+                                    <a href="issues.html" style="color:black">
+                                        <span style="vertical-align:top;font-size:0.9rem;text-transform:uppercase">Issues</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div style="height:5.75rem">
                                     <a href="#" style="color:goldenrod">
                                         <i class="fi-book"></i>
                                     </a>
@@ -198,7 +160,7 @@
                             <li>
                                 <div style="height:5.75rem">
                                     <a href="#" style="color:darkgreen">
-                                        hw
+                                        <i class="fi-info"></i>
                                     </a>
                                 </div>
                                 <div style="height:1.5rem">
@@ -259,7 +221,10 @@
                                     <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
                                         <a href="#">Blog</a></li>
                                     <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                                        <a href="#">News<span class="show-for-medium-up"> &amp; Events</span></a>
+                                        <a href="#">News</a>
+                                    </li>
+                                    <li class="show-for-medium-up" style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
+                                        <a href="#">Events</a>
                                     </li>
                                     <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
                                         <a href="#">Contact</a>
