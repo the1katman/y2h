@@ -20,7 +20,9 @@
 <div class="small-12 columns">
 <div class="off-canvas-wrap" data-offcanvas>
 <div class="inner-wrap">
-<nav class="tab-bar">
+
+<!-- nav for small screen -->
+<nav class="tab-bar show-for-small">
     <section class="left-small" style="text-align:center">
         <!--link to open left off canvas menu-->
         <a class="left-off-canvas-toggle" style="display:block" href="#"><i class="fi-list"
@@ -63,13 +65,10 @@
     </ul>
     <ul class="off-canvas-list">
         <li><label>Connect</label></li>
+        <li><a href="#">Health Groups</a></li>
         <li><a href="#">Forums</a></li>
         <li><a href="#">Health Professional</a></li>
         <li><a href="#">Medical Attorney</a></li>
-    </ul>
-    <ul class="off-canvas-list">
-        <li><label>Groups</label></li>
-        <li><a href="#">Health Groups</a></li>
     </ul>
     <ul class="off-canvas-list">
         <li><label>Billing</label></li>
@@ -101,13 +100,90 @@
     </ul>
 </aside>
 
-<section class="main-section">
+<!-- nav for screens other than small-->
+<nav class="top-bar hide-for-small" data-topbar>
+    <ul class="title-area">
+        <li class="name">
+            <h1><a href="index.html">Y2H</a></h1>
+        </li>
+    </ul>
+
+    <section class="top-bar-section">
+        <ul class="right">
+            <li class="divider"></li>
+            <li class="has-dropdown">
+                <a href="#">Health</a>
+                <ul class="dropdown">
+                    <li><a href="issues.html">Issues</a></li>
+                    <li><a href="#">Prescriptions</a></li>
+                    <li><a href="#">Health Records</a></li>
+                </ul>
+            </li>
+            <li class="divider"></li>
+            <li class="has-dropdown">
+                <a href="#">Schedule</a>
+                <ul class="dropdown">
+                    <li><a href="#">Appointments</a></li>
+                </ul>
+            </li>
+            <li class="divider"></li>
+            <li class="has-dropdown">
+                <a href="#">Discover</a>
+                <ul class="dropdown">
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">HealthWiki</a></li>
+                    <li><a href="#">Research</a></li>
+                </ul>
+            </li>
+            <li class="divider"></li>
+            <li class="has-dropdown">
+                <a href="#">Connect</a>
+                <ul class="dropdown">
+                    <li><a href="#">Health Groups</a></li>
+                    <li><a href="#">Forums</a></li>
+                    <li><a href="#">Health Professional</a></li>
+                    <li><a href="#">Medical Attorney</a></li>
+                </ul>
+            </li>
+            <li class="divider"></li>
+            <li class="has-dropdown">
+                <a href="#">Billing</a>
+                <ul class="dropdown">
+                    <li><a href="#">Payment</a></li>
+                </ul>
+            </li>
+            <li class="divider"></li>
+            <li class="has-dropdown">
+                <a href="#">Links</a>
+                <ul class="dropdown">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Media Center</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </li>
+            <li class="divider"></li>
+            <li class="has-dropdown">
+                <a href="#">Settings</a>
+                <ul class="dropdown">
+                    <li><a href="#">Sign out</a></li>
+                    <li><a href="#">Language</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</nav>
+
+<!-- main content section for small screens-->
+<section id="main-content-small" class="show-for-small">
     <!-- content goes here -->
     <h2 style="margin-top:0.5rem;margin-bottom:0">Welcome Anna Mary!</h2>
     <h6 class="subheader" style="margin-top:0;margin-bottom:0">Connecting you to better health.</h6>
 
     <div>
-        <ul class="small-block-grid-2 medium-block-grid-3" style="text-align:center;font-size:4.25rem">
+        <ul class="small-block-grid-2" style="text-align:center;font-size:4.25rem">
             <li>
                 <div style="height:5.75rem">
                     <a href="#" style="color:orangered">
@@ -230,48 +306,91 @@
             </li>
         </ul>
     </div>
-
-    <footer style="padding:0.5rem 0 0.75rem;margin-top:1rem;text-align:center;background-color:rgb(51,51,51);color:dimgrey">
-        <div class="row">
-            <div class="medium-4 medium-push-8 columns">
-                <ul style="margin:0;list-style-type:none;font-size:2.25rem">
-                    <li style="display:inline;margin-left:0.45rem;margin-right:0.45rem">
-                        <a href="#"><i class="fi-social-twitter"></i></a>
-                    </li>
-                    <li style="display:inline;margin-left:0.45rem;margin-right:0.45rem">
-                        <a href="#"><i class="fi-social-facebook"></i></a>
-                    </li>
-                    <li style="display:inline;margin-left:0.45rem;margin-right:0.45rem">
-                        <a href="#"><i class="fi-mail"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="medium-8 medium-pull-4 columns">
-                <a href="#" style="font-size:2.5rem">
-                    Y2H<span class="show-for-large-up" style="margin-right:0.65rem">&nbsp;</span>
-                </a>
-                <ul style="margin:1rem 0 0.25rem;list-style-type:none;display:inline-block">
-                    <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                        <a href="#">About</a></li>
-                    <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                        <a href="#">Blog</a></li>
-                    <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                        <a href="#">Media <span class="show-for-medium-up">Center</span></a>
-                    </li>
-                    <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                        <a href="#">Contact</a>
-                    </li>
-                    <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                        <a href="#">Site Map</a>
-                    </li>
-                </ul>
-                <p style="margin-bottom:0;font-size:.75rem">
-                    &copy; 2014 YutYut, Inc. All rights reserved.
-                </p>
-            </div>
-        </div>
-    </footer>
 </section>
+
+<!-- main content section not for small screens-->
+<section id="main-content-not-small" class="hide-for-small" style="margin-bottom:1.5rem">
+    <h2 style="margin-top:0.5rem;margin-bottom:0">Welcome Anna Mary!</h2>
+    <h6 class="subheader" style="margin-top:0;margin-bottom:0">Connecting you to better health.</h6>
+
+    <div style="text-align:center;margin-top:1.5rem;margin-bottom:1rem">
+        <img data-interchange="[img/river_of_life_1024x681.jpg, (only screen)], [img/river_of_life_320x213.jpg, (small)], [img/river_of_life_768x511.jpg, (medium)]]">
+        <noscript><img src="img/river_of_life_1024x681.jpg"></noscript>
+    </div>
+
+    <h2 style="text-decoration:underline;text-align:center;margin-bottom:1rem">The Y2H Guide</h2>
+
+    <p style="text-align:justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum felis at lectus lacinia
+        blandit. Integer vel tellus sit amet justo mattis congue. Sed in nisl eros. Phasellus dictum a
+        orci convallis hendrerit. Aliquam sed nisl congue, porttitor ante a, sodales dolor. Ut laoreet
+        ipsum quam, in dignissim eros varius sit amet. In hac habitasse platea dictumst. Integer
+        volutpat felis quis vehicula adipiscing. Etiam diam odio, eleifend a purus in, suscipit
+        venenatis est. Cras blandit tristique lacus, vitae mollis mi accumsan nec. Ut sed mauris sed
+        nulla feugiat fringilla egestas at orci.
+    </p>
+    <p style="text-align:justify">
+        Vivamus feugiat ultrices pharetra. Sed enim ipsum, malesuada eget dui sit amet, vehicula tempor
+        nisi. Fusce molestie sit amet risus ac lobortis. Vestibulum vitae varius metus. Sed quis augue
+        suscipit, convallis eros nec, dapibus turpis. Proin rhoncus, sem id egestas pharetra, erat sem
+        semper massa, sit amet gravida purus orci id lectus. Quisque vitae neque tincidunt, vulputate
+        neque eu, volutpat ligula. Quisque vel est eget diam venenatis egestas ac eget enim. Vestibulum
+        eget pretium leo, sit amet sagittis lectus. Vestibulum id nulla eu turpis suscipit malesuada.
+        Sed cursus fermentum est, quis pretium enim fringilla eu.
+    </p>
+    <p style="text-align:justify">
+        Mauris a mattis felis, sed molestie nunc. Curabitur in nunc libero. Praesent ornare gravida
+        risus quis euismod. Suspendisse ligula odio, consectetur luctus enim et, pellentesque hendrerit
+        erat. Pellentesque in laoreet est. Donec ut sodales arcu. Morbi eleifend aliquet posuere. Duis
+        non odio in diam varius fringilla eget ac massa. Nam tellus magna, consectetur ac viverra eu,
+        dapibus sed leo. Fusce id dolor mauris. Donec volutpat lectus in erat consectetur, a rutrum
+        augue laoreet. Nunc malesuada pellentesque tempus. Nulla eleifend, mi vitae eleifend
+        sollicitudin, diam mi blandit augue, eget accumsan quam dui vitae nunc. Nulla metus mauris,
+        tristique sit amet gravida nec, elementum vitae risus. Maecenas pretium suscipit turpis ac
+        eleifend. Donec ornare semper odio, vitae sagittis elit viverra id.
+    </p>
+</section>
+
+<footer style="padding:0.5rem 0 0.75rem;margin-top:1rem;text-align:center;background-color:rgb(51,51,51);color:dimgrey">
+    <div class="row">
+        <div class="medium-4 medium-push-8 columns">
+            <ul style="margin:0;list-style-type:none;font-size:2.25rem">
+                <li style="display:inline;margin-left:0.45rem;margin-right:0.45rem">
+                    <a href="#"><i class="fi-social-twitter"></i></a>
+                </li>
+                <li style="display:inline;margin-left:0.45rem;margin-right:0.45rem">
+                    <a href="#"><i class="fi-social-facebook"></i></a>
+                </li>
+                <li style="display:inline;margin-left:0.45rem;margin-right:0.45rem">
+                    <a href="#"><i class="fi-mail"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="medium-8 medium-pull-4 columns">
+            <a href="#" style="font-size:2.5rem">
+                Y2H<span class="show-for-large-up" style="margin-right:0.65rem">&nbsp;</span>
+            </a>
+            <ul style="margin:1rem 0 0.25rem;list-style-type:none;display:inline-block">
+                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
+                    <a href="#">About</a></li>
+                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
+                    <a href="#">Blog</a></li>
+                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
+                    <a href="#">Media <span class="show-for-medium-up">Center</span></a>
+                </li>
+                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
+                    <a href="#">Contact</a>
+                </li>
+                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
+                    <a href="#">Site Map</a>
+                </li>
+            </ul>
+            <p style="margin-bottom:0;font-size:.75rem">
+                &copy; 2014 YutYut, Inc. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
 
 <!--link to exit the off canvas menu-->
 <a class="exit-off-canvas"></a>
