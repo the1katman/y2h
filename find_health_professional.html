@@ -178,152 +178,208 @@
 
 <!-- main content section for small screens-->
 <section id="main-content">
-    <!-- content goes here -->
-    <div style="margin-top:1rem;margin-bottom:1rem;text-align:center;font-size:2.5rem">
-        <a href="#" data-dropdown="filter">
-            <i class="fi-filter"></i>
-        </a>
-    </div>
+<!-- content goes here -->
+<div style="margin-top:1rem;margin-bottom:1rem;text-align:center;font-size:2.5rem">
+    <a href="#" data-dropdown="filter">
+        <i class="fi-filter"></i>
+    </a>
+</div>
 
-    <div id="filter" data-dropdown-content class="f-dropdown content">
-        <h4>
-            Search
-        </h4>
+<div id="filter" data-dropdown-content class="f-dropdown content">
+    <h6>
+        Search
+    </h6>
 
-        <form>
+    <label>
+        <input type="text" placeholder="Enter search terms here."/>
+    </label>
+
+    <div class="row">
+        <div class="small-6 columns">
+            <h6>
+                Location
+            </h6>
+        </div>
+        <div class="small-6 columns">
             <label>
-                <input type="text"/>
+                <input type="text" placeholder="ZIP code"/>
             </label>
-        </form>
-    </div>
-
-    <div class="panel radius">
-        <div class="row">
-            <div class="small-12 medium-9 large-10 columns">
-                <h3>
-                    Dr. Gregory House
-                </h3>
-            </div>
-            <div class="medium-3 large-2 columns hide-for-small" style="text-align:right">
-                <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="small-6 medium-12 columns">
-                <i class="fi-star" style="color:gold"></i>
-                <i class="fi-star" style="color:gold"></i>
-                <i class="fi-star" style="color:gold"></i>
-                <i class="fi-star" style="color:gold"></i>
-            </div>
-            <div class="small-6 columns show-for-small" style="text-align:right">
-                <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
-            </div>
-        </div>
-
-        <div class="row" style="margin-top:1rem">
-            <div class="small-4 medium-2 columns">
-                <img data-interchange="[img/caduceus_90x107.jpg, (only screen)], [img/caduceus_54x64.jpg, (small)]]">
-                <noscript><img src="img/caduceus_90x107.jpg"></noscript>
-            </div>
-            <div class="small-8 medium-10 columns">
-                <h5 style="margin-bottom:1rem">
-                    Specialties: Infectious Diseases, Nephrology
-                </h5>
-                <h6 class="show-for-medium-up">
-                    Princeton-Plainsboro Teaching Hospital<br/>
-                    <span style="color:grey">~(3000 mi)</span>
-                </h6>
-            </div>
-        </div>
-        <div style="text-align:right">
-            <a href="#" class="button tiny radius" style="margin-top:0.5rem;margin-bottom:0">Make An Appointment</a>
         </div>
     </div>
-    <div class="panel radius">
-        <div class="row">
-            <div class="small-12 medium-9 large-10 columns">
-                <h3>
-                    Dr. Heathcliff "Cliff" Huxtable
-                </h3>
-            </div>
-            <div class="medium-3 large-2 columns hide-for-small" style="text-align:right">
-                <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="small-6 medium-12 columns">
-                <i class="fi-star" style="color:gold"></i>
-                <i class="fi-star" style="color:gold"></i>
-                <i class="fi-star" style="color:gold"></i>
-                <i class="fi-star" style="color:gold"></i>
-                <i class="fi-star" style="color:gold"></i>
-            </div>
-            <div class="small-6 columns show-for-small" style="text-align:right">
-                <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
-            </div>
-        </div>
+    <hr/>
 
-        <div class="row" style="margin-top:1rem">
-            <div class="small-4 medium-2 columns">
-                <img data-interchange="[img/caduceus_90x107.jpg, (only screen)], [img/caduceus_54x64.jpg, (small)]]">
-                <noscript><img src="img/caduceus_90x107.jpg"></noscript>
-            </div>
-            <div class="small-8 medium-10 columns">
-                <h5 style="margin-bottom:1rem">
-                    Specialties: Obstetrics
-                </h5>
-                <h6 class="show-for-medium-up">
-                    Columbia University Medical Center<br/>
-                    <span style="color:grey">~(3000 mi)</span>
-                </h6>
-            </div>
+    <div style="text-align:center">
+        <h4>
+            Sort By
+        </h4>
+    </div>
+
+    <div class="row">
+        <div class="small-6 columns">
+            <h6>
+                Distance
+            </h6>
         </div>
-        <div style="text-align:right">
-            <a href="#" class="button tiny radius" style="margin-top:0.5rem;margin-bottom:0">Make An Appointment</a>
+        <div class="small-6 columns" style="text-align:center">
+            <label>
+                <input type="checkbox"/>
+            </label>
         </div>
     </div>
-    <div class="panel radius">
-        <div class="row">
-            <div class="small-12 medium-9 large-10 columns">
-                <h3>
-                    Dr. J
-                </h3>
-            </div>
-            <div class="medium-3 large-2 columns hide-for-small" style="text-align:right">
-                <span class="button tiny radius" style="margin-bottom:0;background-color:dimgrey">Offline</span>
-            </div>
+    <div class="row">
+        <div class="small-6 columns">
+            <h6>
+                Rating
+            </h6>
         </div>
-
-        <div class="row">
-            <div class="small-6 medium-12 columns">
-                <i class="fi-star" style="color:gold"></i>
-            </div>
-            <div class="small-6 columns show-for-small" style="text-align:right">
-                <span class="button tiny radius" style="margin-bottom:0;background-color:dimgrey">Offline</span>
-            </div>
-        </div>
-
-        <div class="row" style="margin-top:1rem">
-            <div class="small-4 medium-2 columns">
-                <img data-interchange="[img/caduceus_90x107.jpg, (only screen)], [img/caduceus_54x64.jpg, (small)]]">
-                <noscript><img src="img/caduceus_90x107.jpg"></noscript>
-            </div>
-            <div class="small-8 medium-10 columns">
-                <h5 style="margin-bottom:1rem">
-                    Specialties: Balling out of control
-                </h5>
-                <h6 class="show-for-medium-up">
-                    A ballers court<br/>
-                    <span style="color:grey">(Unknown)</span>
-                </h6>
-            </div>
-        </div>
-        <div style="text-align:right">
-            <a href="#" class="button tiny radius" style="margin-top:0.5rem;margin-bottom:0">Make An Appointment</a>
+        <div class="small-6 columns" style="text-align:center">
+            <label>
+                <input type="checkbox"/>
+            </label>
         </div>
     </div>
+    <div class="row">
+        <div class="small-6 columns">
+            <h6>
+                Appointment Availability
+            </h6>
+        </div>
+        <div class="small-6 columns" style="text-align:center">
+            <label>
+                <input type="checkbox"/>
+            </label>
+        </div>
+    </div>
+</div>
+
+<div class="panel radius">
+    <div class="row">
+        <div class="small-12 medium-9 large-10 columns">
+            <h3>
+                Dr. Gregory House
+            </h3>
+        </div>
+        <div class="medium-3 large-2 columns hide-for-small" style="text-align:right">
+            <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-6 medium-12 columns">
+            <i class="fi-star" style="color:gold"></i>
+            <i class="fi-star" style="color:gold"></i>
+            <i class="fi-star" style="color:gold"></i>
+            <i class="fi-star" style="color:gold"></i>
+        </div>
+        <div class="small-6 columns show-for-small" style="text-align:right">
+            <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:1rem">
+        <div class="small-4 medium-2 columns">
+            <img data-interchange="[img/caduceus_90x107.jpg, (only screen)], [img/caduceus_54x64.jpg, (small)]]">
+            <noscript><img src="img/caduceus_90x107.jpg"></noscript>
+        </div>
+        <div class="small-8 medium-10 columns">
+            <h5 style="margin-bottom:1rem">
+                Specialties: Infectious Diseases, Nephrology
+            </h5>
+            <h6 class="show-for-medium-up">
+                Princeton-Plainsboro Teaching Hospital<br/>
+                <span style="color:grey">~(3000 mi)</span>
+            </h6>
+        </div>
+    </div>
+    <div style="text-align:right">
+        <a href="#" class="button tiny radius" style="margin-top:0.5rem;margin-bottom:0">Make An Appointment</a>
+    </div>
+</div>
+<div class="panel radius">
+    <div class="row">
+        <div class="small-12 medium-9 large-10 columns">
+            <h3>
+                Dr. Heathcliff "Cliff" Huxtable
+            </h3>
+        </div>
+        <div class="medium-3 large-2 columns hide-for-small" style="text-align:right">
+            <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-6 medium-12 columns">
+            <i class="fi-star" style="color:gold"></i>
+            <i class="fi-star" style="color:gold"></i>
+            <i class="fi-star" style="color:gold"></i>
+            <i class="fi-star" style="color:gold"></i>
+            <i class="fi-star" style="color:gold"></i>
+        </div>
+        <div class="small-6 columns show-for-small" style="text-align:right">
+            <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:1rem">
+        <div class="small-4 medium-2 columns">
+            <img data-interchange="[img/caduceus_90x107.jpg, (only screen)], [img/caduceus_54x64.jpg, (small)]]">
+            <noscript><img src="img/caduceus_90x107.jpg"></noscript>
+        </div>
+        <div class="small-8 medium-10 columns">
+            <h5 style="margin-bottom:1rem">
+                Specialties: Obstetrics
+            </h5>
+            <h6 class="show-for-medium-up">
+                Columbia University Medical Center<br/>
+                <span style="color:grey">~(3000 mi)</span>
+            </h6>
+        </div>
+    </div>
+    <div style="text-align:right">
+        <a href="#" class="button tiny radius" style="margin-top:0.5rem;margin-bottom:0">Make An Appointment</a>
+    </div>
+</div>
+<div class="panel radius">
+    <div class="row">
+        <div class="small-12 medium-9 large-10 columns">
+            <h3>
+                Dr. J
+            </h3>
+        </div>
+        <div class="medium-3 large-2 columns hide-for-small" style="text-align:right">
+            <span class="button tiny radius" style="margin-bottom:0;background-color:dimgrey">Offline</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-6 medium-12 columns">
+            <i class="fi-star" style="color:gold"></i>
+        </div>
+        <div class="small-6 columns show-for-small" style="text-align:right">
+            <span class="button tiny radius" style="margin-bottom:0;background-color:dimgrey">Offline</span>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:1rem">
+        <div class="small-4 medium-2 columns">
+            <img data-interchange="[img/caduceus_90x107.jpg, (only screen)], [img/caduceus_54x64.jpg, (small)]]">
+            <noscript><img src="img/caduceus_90x107.jpg"></noscript>
+        </div>
+        <div class="small-8 medium-10 columns">
+            <h5 style="margin-bottom:1rem">
+                Specialties: Balling out of control
+            </h5>
+            <h6 class="show-for-medium-up">
+                A ballers court<br/>
+                <span style="color:grey">(Unknown)</span>
+            </h6>
+        </div>
+    </div>
+    <div style="text-align:right">
+        <a href="#" class="button tiny radius" style="margin-top:0.5rem;margin-bottom:0">Make An Appointment</a>
+    </div>
+</div>
 </section>
 
 <footer style="padding:0.5rem 0 0.75rem;margin-top:1rem;text-align:center;background-color:rgb(51,51,51);color:dimgrey">
