@@ -4,10 +4,11 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Y2H - Find A Health Professional</title>
+    <title>Y2H - Schedule An Appointment</title>
 
     <link rel="stylesheet" href="css/foundation/foundation.css"/>
     <link rel="stylesheet" href="css/foundation/icons/foundation-icons.css"/>
+    <link rel="stylesheet" href="css/foundation/calendar/foundation-calendar.css"/>
 
     <link rel="shortcut icon" href="img/river_of_life_16x16.ico"/>
 
@@ -55,7 +56,7 @@
     </ul>
     <ul class="off-canvas-list">
         <li><label>Schedule</label></li>
-        <li><a href="schedule_appointment.html">Appointments</a></li>
+        <li><a href="#">Appointments</a></li>
     </ul>
     <ul class="off-canvas-list">
         <li><label>Discover</label></li>
@@ -67,7 +68,7 @@
         <li><label>Connect</label></li>
         <li><a href="#">Health Groups</a></li>
         <li><a href="#">Forums</a></li>
-        <li><a href="#">Health Professional</a></li>
+        <li><a href="find_health_professional.html">Health Professional</a></li>
         <li><a href="#">Medical Attorney</a></li>
     </ul>
     <ul class="off-canvas-list">
@@ -123,7 +124,7 @@
             <li class="has-dropdown">
                 <a href="#">Schedule</a>
                 <ul class="dropdown">
-                    <li><a href="schedule_appointment.html">Appointments</a></li>
+                    <li><a href="#">Appointments</a></li>
                 </ul>
             </li>
             <li class="divider"></li>
@@ -141,7 +142,7 @@
                 <ul class="dropdown">
                     <li><a href="#">Health Groups</a></li>
                     <li><a href="#">Forums</a></li>
-                    <li><a href="#">Health Professional</a></li>
+                    <li><a href="find_health_professional.html">Health Professional</a></li>
                     <li><a href="#">Medical Attorney</a></li>
                 </ul>
             </li>
@@ -178,208 +179,86 @@
 
 <!-- main content section for small screens-->
 <section id="main-content">
-<!-- content goes here -->
-<div style="margin-top:1rem;margin-bottom:1rem;text-align:center;font-size:2.5rem">
-    <a href="#" data-dropdown="filter">
-        <i class="fi-filter"></i>
-    </a>
-</div>
-
-<div id="filter" data-dropdown-content class="f-dropdown content">
-    <h6>
-        Search
-    </h6>
-
-    <label>
-        <input type="text" placeholder="Enter search terms here."/>
-    </label>
-
-    <div class="row">
-        <div class="small-6 columns">
-            <h6>
-                Location
-            </h6>
-        </div>
-        <div class="small-6 columns">
-            <label>
-                <input type="text" placeholder="ZIP code"/>
-            </label>
-        </div>
-    </div>
-
-    <hr/>
-
-    <div style="text-align:center">
-        <h4>
-            Sort By
-        </h4>
-    </div>
-
-    <div class="row">
-        <div class="small-6 columns">
-            <h6>
-                Distance
-            </h6>
-        </div>
-        <div class="small-6 columns" style="text-align:center">
-            <label>
-                <input type="checkbox"/>
-            </label>
-        </div>
-    </div>
-    <div class="row">
-        <div class="small-6 columns">
-            <h6>
-                Rating
-            </h6>
-        </div>
-        <div class="small-6 columns" style="text-align:center">
-            <label>
-                <input type="checkbox"/>
-            </label>
-        </div>
-    </div>
-    <div class="row">
-        <div class="small-6 columns">
-            <h6>
-                Appointment Availability
-            </h6>
-        </div>
-        <div class="small-6 columns" style="text-align:center">
-            <label>
-                <input type="checkbox"/>
-            </label>
-        </div>
-    </div>
-</div>
-
-<div class="panel radius">
-    <div class="row">
-        <div class="small-12 medium-9 large-10 columns">
-            <h3>
-                Dr. Gregory House
-            </h3>
-        </div>
-        <div class="medium-3 large-2 columns hide-for-small" style="text-align:right">
-            <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="small-6 medium-12 columns">
-            <i class="fi-star" style="color:gold"></i>
-            <i class="fi-star" style="color:gold"></i>
-            <i class="fi-star" style="color:gold"></i>
-            <i class="fi-star" style="color:gold"></i>
-        </div>
-        <div class="small-6 columns show-for-small" style="text-align:right">
-            <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:limegreen">Online Now</a>
-        </div>
-    </div>
-
-    <div class="row" style="margin-top:1rem">
-        <div class="small-4 medium-2 columns">
-            <img data-interchange="[img/caduceus_90x107.jpg, (only screen)], [img/caduceus_54x64.jpg, (small)]]">
-            <noscript><img src="img/caduceus_90x107.jpg"></noscript>
-        </div>
-        <div class="small-8 medium-10 columns">
-            <h5 style="margin-bottom:1rem">
-                Specialties: Infectious Diseases, Nephrology
-            </h5>
-            <h6 class="show-for-medium-up">
-                Princeton-Plainsboro Teaching Hospital<br/>
-                <span style="color:grey">~(3000 mi)</span>
-            </h6>
-        </div>
-    </div>
-    <div style="text-align:right">
-        <a href="schedule_appointment.html" class="button tiny radius" style="margin-top:0.5rem;margin-bottom:0">Schedule An Appointment</a>
-    </div>
-</div>
-<div class="panel radius">
-    <div class="row">
-        <div class="small-12 medium-9 large-10 columns">
-            <h3>
-                Dr. Heathcliff "Cliff" Huxtable
-            </h3>
-        </div>
-        <div class="medium-3 large-2 columns hide-for-small" style="text-align:right">
-            <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:lightgrey">Online Now</a>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="small-6 medium-12 columns">
-            <i class="fi-star" style="color:gold"></i>
-            <i class="fi-star" style="color:gold"></i>
-            <i class="fi-star" style="color:gold"></i>
-            <i class="fi-star" style="color:gold"></i>
-            <i class="fi-star" style="color:gold"></i>
-        </div>
-        <div class="small-6 columns show-for-small" style="text-align:right">
-            <a href="#" class="button tiny radius" style="margin-bottom:0;background-color:lightgrey">Online Now</a>
-        </div>
-    </div>
-
-    <div class="row" style="margin-top:1rem">
-        <div class="small-4 medium-2 columns">
-            <img data-interchange="[img/caduceus_90x107.jpg, (only screen)], [img/caduceus_54x64.jpg, (small)]]">
-            <noscript><img src="img/caduceus_90x107.jpg"></noscript>
-        </div>
-        <div class="small-8 medium-10 columns">
-            <h5 style="margin-bottom:1rem">
-                Specialties: Obstetrics
-            </h5>
-            <h6 class="show-for-medium-up">
-                Columbia University Medical Center<br/>
-                <span style="color:grey">~(3000 mi)</span>
-            </h6>
-        </div>
-    </div>
-    <div style="text-align:right">
-        <a href="#" class="button tiny radius" style="margin-top:0.5rem;margin-bottom:0;background-color:lightgrey">Schedule An Appointment</a>
-    </div>
-</div>
-<div class="panel radius">
-    <div class="row">
-        <div class="small-12 medium-9 large-10 columns">
-            <h3>
-                Dr. J
-            </h3>
-        </div>
-        <div class="medium-3 large-2 columns hide-for-small" style="text-align:right">
-            <span class="button tiny radius" style="margin-bottom:0;background-color:dimgrey">Offline</span>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="small-6 medium-12 columns">
-            <i class="fi-star" style="color:gold"></i>
-        </div>
-        <div class="small-6 columns show-for-small" style="text-align:right">
-            <span class="button tiny radius" style="margin-bottom:0;background-color:dimgrey">Offline</span>
-        </div>
-    </div>
-
-    <div class="row" style="margin-top:1rem">
-        <div class="small-4 medium-2 columns">
-            <img data-interchange="[img/caduceus_90x107.jpg, (only screen)], [img/caduceus_54x64.jpg, (small)]]">
-            <noscript><img src="img/caduceus_90x107.jpg"></noscript>
-        </div>
-        <div class="small-8 medium-10 columns">
-            <h5 style="margin-bottom:1rem">
-                Specialties: Balling out of control
-            </h5>
-            <h6 class="show-for-medium-up">
-                A ballers court<br/>
-                <span style="color:grey">(Unknown)</span>
-            </h6>
-        </div>
-    </div>
-    <div style="text-align:right">
-        <a href="#" class="button tiny radius" style="margin-top:0.5rem;margin-bottom:0;background-color:lightgrey">Schedule An Appointment</a>
-    </div>
-</div>
+    <!-- content goes here -->
+    <h3>Schedule An Appointment</h3>
+    <ul class="calendar">
+        <li class="day-header">
+            <div class="small-1 day">
+                <span class="show-for-small">S</span>
+                <span class="hide-for-small">Sunday</span>
+            </div>
+            <div class="small-1 day">
+                <span class="show-for-small">M</span>
+                <span class="hide-for-small">Monday</span>
+            </div>
+            <div class="small-1 day">
+                <span class="show-for-small">T</span>
+                <span class="hide-for-small">Tuesday</span>
+            </div>
+            <div class="small-1 day">
+                <span class="show-for-small">W</span>
+                <span class="hide-for-small">Wednesday</span>
+            </div>
+            <div class="small-1 day">
+                <span class="show-for-small">T</span>
+                <span class="hide-for-small">Thursday</span>
+            </div>
+            <div class="small-1 day">
+                <span class="show-for-small">F</span>
+                <span class="hide-for-small">Friday</span>
+            </div>
+            <div class="small-1 day">
+                <span class="show-for-small">S</span>
+                <span class="hide-for-small">Saturday</span>
+            </div>
+        </li>
+        <li class="week">
+            <div class="small-1 day previous-month">29</div>
+            <div class="small-1 day previous-month">30</div>
+            <div class="small-1 day">1</div>
+            <div class="small-1 day">2</div>
+            <div class="small-1 day">3</div>
+            <div class="small-1 day">4</div>
+            <div class="small-1 day">5</div>
+        </li>
+        <li class="week">
+            <div class="small-1 day">6</div>
+            <!--<div class="small-1 day today">6</div>-->
+            <div class="small-1 day">7</div>
+            <div class="small-1 day">8</div>
+            <div class="small-1 day">9</div>
+            <div class="small-1 day">10</div>
+            <div class="small-1 day">11</div>
+            <div class="small-1 day">12</div>
+        </li>
+        <li class="week">
+            <div class="small-1 day">13</div>
+            <div class="small-1 day">14</div>
+            <div class="small-1 day">15</div>
+            <div class="small-1 day">16</div>
+            <div class="small-1 day">17</div>
+            <div class="small-1 day">18</div>
+            <div class="small-1 day">19</div>
+        </li>
+        <li class="week">
+            <div class="small-1 day">20</div>
+            <div class="small-1 day">21</div>
+            <div class="small-1 day">22</div>
+            <div class="small-1 day">23</div>
+            <div class="small-1 day">24</div>
+            <div class="small-1 day">25</div>
+            <div class="small-1 day">26</div>
+        </li>
+        <li class="week">
+            <div class="small-1 day">27</div>
+            <div class="small-1 day">28</div>
+            <div class="small-1 day">29</div>
+            <div class="small-1 day">30</div>
+            <div class="small-1 day">31</div>
+            <div class="small-1 day next-month">1</div>
+            <div class="small-1 day next-month">2</div>
+        </li>
+    </ul>
 </section>
 
 <footer style="padding:0.5rem 0 0.75rem;margin-top:1rem;text-align:center;background-color:rgb(51,51,51);color:dimgrey">
