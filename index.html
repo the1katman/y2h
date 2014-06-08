@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="css/framework/foundation/foundation.css"/>
     <link rel="stylesheet" href="css/framework/foundation/icons/foundation-icons.css"/>
+    <link rel="stylesheet" href="css/app/pages/template/main.css"/>
+    <link rel="stylesheet" href="css/app/pages/home.css"/>
 
     <link rel="shortcut icon" href="img/favicon/river_of_life_16x16.ico"/>
 
@@ -23,20 +25,22 @@
 
                 <!-- nav for small screen -->
                 <nav class="tab-bar show-for-small">
-                    <section class="left-small" style="text-align:center">
+                    <section class="left-small nav-section-centered">
                         <!--link to open left off canvas menu-->
-                        <a class="left-off-canvas-toggle" style="display:block" href="#"><i class="fi-list"
-                                                                                            style="color:white"></i></a>
+                        <a class="left-off-canvas-toggle" href="#">
+                            <i class="fi-list nav-icon"></i>
+                        </a>
                     </section>
 
                     <section class="middle tab-bar-section">
                         <a href="#"><h1 class="title">Y2H</h1></a>
                     </section>
 
-                    <section class="right-small" style="text-align:center">
+                    <section class="right-small nav-section-centered">
                         <!--link to open right off canvas menu-->
-                        <a class="right-off-canvas-toggle" style="display:block" href="#"><i class="fi-widget"
-                                                                                             style="color:white"></i></a>
+                        <a class="right-off-canvas-toggle" href="#">
+                            <i class="fi-widget nav-icon"></i>
+                        </a>
                     </section>
                 </nav>
 
@@ -85,110 +89,96 @@
                     </section>
                 </nav>
 
-                <!-- main content section for small screens-->
-                <section id="main-content-small" class="show-for-small">
-                    <!-- content goes here -->
-                    <h2 style="margin-top:0.5rem;margin-bottom:0">Welcome Anna Mary!</h2>
-                    <h6 class="subheader" style="margin-top:0;margin-bottom:0">Connecting you to better health.</h6>
+                <!-- main content -->
+                <section id="main-content">
+                    <div class="y2h-story-panel">
+                        <h2>
+                            <a href="#">The Y2H Story</a>
+                        </h2>
 
-                    <div>
-                        <ul class="small-block-grid-2" style="text-align:center;font-size:4.25rem">
-                            <li>
-                                <div style="height:5.75rem">
-                                    <a href="#" style="color:crimson">
-                                        <i class="fi-first-aid"></i>
-                                    </a>
-                                </div>
-                                <div style="height:1.5rem">
-                                    <a href="#" style="color:black">
-                                        <span style="vertical-align:top;font-size:0.9rem;text-transform:uppercase">Issues</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                                <div style="height:5.75rem">
-                                    <a href="#" style="color:gold">
-                                        <i class="fi-foot"></i>
-                                    </a>
-                                </div>
-                                <div style="height:1.5rem">
-                                    <a href="#" style="color:black">
-                                        <span style="vertical-align:top;font-size:0.9rem;text-transform:uppercase">Baby</span>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
+                        <p>
+                            Read about <a href="#">the Y2H story</a> to find out more about this prototype.
+                        </p>
                     </div>
-                </section>
 
-                <!-- main content section not for small screens-->
-                <section id="main-content-not-small" class="hide-for-small" style="margin-bottom:1.5rem">
-                    <h2 style="margin-top:0.5rem;margin-bottom:0">Welcome Anna Mary!</h2>
-                    <h6 class="subheader" style="margin-top:0;margin-bottom:1rem">Connecting you to better health.</h6>
+                    <hr/>
 
+                    <h2 class="sample-workflows-header">Sample Workflows</h2>
+
+                    <!-- issues workflow -->
                     <div class="row">
-                        <div class="medium-6 columns" style="text-align:right">
-                            <a href="#" style="color:crimson;font-size:4rem">
-                                <i class="fi-first-aid"></i>
-                            </a>
-                        </div>
-                        <div class="medium-6 columns">
-                            <a href="#" style="color:black;font-size:1.7rem;line-height:4rem;text-transform:uppercase">
-                                Issues
-                            </a>
+                        <div class="small-8 medium-4 large-3 small-centered columns">
+                            <div class="row workflow-panel">
+                                <div class="small-4 columns">
+                                    <a href="#">
+                                        <i class="fi-first-aid workflow-icon issues-icon"></i>
+                                    </a>
+                                </div>
+                                <div class="small-8 columns">
+                                    <a href="#" class="small-icon-text">Issues</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- baby workflow -->
                     <div class="row">
-                        <div class="medium-6 columns" style="text-align:right;padding-right:1.65rem">
-                            <a href="#" style="color:gold;font-size:4rem">
-                                <i class="fi-foot"></i>
-                            </a>
-                        </div>
-                        <div class="medium-6 columns">
-                            <a href="#" style="color:black;font-size:1.7rem;line-height:4rem;text-transform:uppercase">
-                                Baby
-                            </a>
+                        <div class="small-8 medium-4 large-3 small-centered columns">
+                            <div class="row workflow-panel">
+                                <div class="small-4 columns">
+                                    <a href="#">
+                                        <i class="fi-foot workflow-icon baby-icon"></i>
+                                    </a>
+                                </div>
+                                <div class="small-8 columns">
+                                    <a href="#" class="small-icon-text">Baby</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                <footer style="padding:0.5rem 0 0.75rem;margin-top:1rem;text-align:center;background-color:rgb(51,51,51);color:dimgrey">
+                <footer class="footer-panel">
                     <div class="row">
                         <div class="medium-4 medium-push-8 columns">
-                            <ul style="margin:0;list-style-type:none;font-size:2.25rem">
-                                <li style="display:inline;margin-left:0.45rem;margin-right:0.45rem">
+                            <ul class="footer-social-icons">
+                                <li class="footer-social-icon">
                                     <a href="#"><i class="fi-social-twitter"></i></a>
                                 </li>
-                                <li style="display:inline;margin-left:0.45rem;margin-right:0.45rem">
+                                <li class="footer-social-icon">
                                     <a href="#"><i class="fi-social-facebook"></i></a>
                                 </li>
-                                <li style="display:inline;margin-left:0.45rem;margin-right:0.45rem">
+                                <li class="footer-social-icon">
                                     <a href="#"><i class="fi-mail"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="medium-8 medium-pull-4 columns">
-                            <a href="#" style="font-size:2.5rem">
-                                Y2H<span class="show-for-large-up" style="margin-right:0.65rem">&nbsp;</span>
-                            </a>
-                            <ul style="margin:1rem 0 0.25rem;list-style-type:none;display:inline-block">
-                                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                                    <a href="#">About</a></li>
-                                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                                    <a href="#">Blog</a></li>
-                                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                                    <a href="#">Media <span class="hide-for-small">Center</span></a>
-                                </li>
-                                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                                    <a href="#">Contact</a>
-                                </li>
-                                <li style="display:inline;margin-left:0.15rem;margin-right:0.15rem;text-transform:uppercase;font-size:0.75rem;font-weight:bold">
-                                    <a href="#">Site Map</a>
-                                </li>
-                            </ul>
-                            <p style="margin-bottom:0;font-size:.75rem">
-                                &copy; 2014 YutYut, Inc. All rights reserved.
-                            </p>
+                            <div class="row">
+                                <div class="medium-4 columns footer-logo-panel">
+                                    <a href="#" class="footer-logo">Y2H</a>
+                                </div>
+                                <div class="medium-8 columns">
+                                    <ul class="footer-links">
+                                        <li class="footer-link">
+                                            <a href="#">About</a></li>
+                                        <li class="footer-link">
+                                            <a href="#">Blog</a></li>
+                                        <li class="footer-link">
+                                            <a href="#">Media</a>
+                                        </li>
+                                        <li class="footer-link">
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li class="footer-link">
+                                            <a href="#">Site Map</a>
+                                        </li>
+                                    </ul>
+                                    <p class="footer-copyright">
+                                        &copy; 2014 YutYut, Inc. All rights reserved.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </footer>

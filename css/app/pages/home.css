@@ -1,0 +1,31 @@
+.y2h-story-panel {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.sample-workflows-header {
+    text-align: center;
+}
+
+.workflow-panel {
+    line-height: 3.75rem;
+    text-align: center;
+}
+
+.workflow-icon {
+    font-size: 3.75rem;
+}
+
+.small-icon-text {
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    color: #000; /* black */
+}
+
+.issues-icon {
+    color: #dc143c; /* crimson */
+}
+
+.baby-icon {
+    color: #ffd700; /* gold */
+}
