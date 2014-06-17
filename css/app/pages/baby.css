@@ -1,0 +1,47 @@
+.baby-workflow-panel {
+    text-align: center;
+}
+
+.baby-workflow-button {
+    width: 200px;
+}
+
+a.baby-workflow-active:link {
+    background: #ffd700; /* gold */
+    font-weight: bold;
+}
+
+a.baby-workflow-active:active {
+    background: #ffd700; /* gold */
+    font-weight: bold;
+}
+
+a.baby-workflow-active:visited {
+    background: #ffd700; /* gold */
+    font-weight: bold;
+}
+
+a.baby-workflow-active:hover {
+    background: #ffd700; /* gold */
+    font-weight: bolder;
+}
+
+a.baby-workflow-inactive:link {
+    background: #d3d3d3; /* light grey */
+    font-weight: bold;
+}
+
+a.baby-workflow-inactive:active {
+    background: #d3d3d3; /* light grey */
+    font-weight: bold;
+}
+
+a.baby-workflow-inactive:visited {
+    background: #d3d3d3; /* light grey */
+    font-weight: bold;
+}
+
+a.baby-workflow-inactive:hover {
+    background: #d3d3d3; /* light grey */
+    font-weight: bolder;
+}
