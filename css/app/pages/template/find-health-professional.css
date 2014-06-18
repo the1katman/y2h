@@ -1,0 +1,107 @@
+.filter-icon-panel {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.75rem;
+}
+
+.filter-sort-by-title {
+    text-align: center;
+}
+
+.filter-checkbox-panel {
+    text-align: center;
+}
+
+.online-now-button-panel {
+    text-align: right;
+}
+
+.online-now-button {
+    margin-bottom: 0;
+}
+
+.online-now-active {
+    background-color: #32cd32; /*limegreen*/
+}
+
+a.online-now-active:link {
+    background-color: #32cd32; /* limegreen */
+}
+
+a.online-now-active:active {
+    background-color: #32cd32; /* limegreen */
+}
+
+a.online-now-active:visited {
+    background-color: #32cd32; /* limegreen */
+}
+
+a.online-now-active:hover {
+    background-color: #32cd32; /* limegreen */
+}
+
+.rating-color {
+    color: #ffd700; /* gold */
+}
+
+.online-now-inactive {
+    background-color: #696969; /* dim grey */
+}
+
+a.online-now-inactive:link {
+    background-color: #696969; /* dim grey */
+}
+
+a.online-now-inactive:active {
+    background-color: #696969; /* dim grey */
+}
+
+a.online-now-inactive:visited {
+    background-color: #696969; /* dim grey */
+}
+
+a.online-now-inactive:hover {
+    background-color: #696969; /* dim grey */
+}
+
+.media-content-panel {
+    margin-top: 1rem;
+}
+
+.specialities-content {
+    margin-bottom: 1rem;
+}
+
+.distance-text {
+    color: #808080; /* grey */
+}
+
+.schedule-appointment-button-panel {
+    text-align: right;
+}
+
+.schedule-appointment-button {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.schedule-appointment-button-inactive {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.schedule-appointment-button-inactive:link {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.schedule-appointment-button-inactive:active {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.schedule-appointment-button-inactive:visited {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.schedule-appointment-button-inactive:hover {
+    background-color: #d3d3d3; /* light grey */
+}
