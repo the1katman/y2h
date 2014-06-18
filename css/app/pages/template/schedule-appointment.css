@@ -1,0 +1,79 @@
+.content-item {
+    margin-left: 2rem;
+}
+
+.health-professional-header {
+    font-size: 1.3rem;
+}
+
+.change-appointment-location-button-panel {
+    margin-top: 1rem;
+}
+
+.change-appointment-location-button {
+    margin-bottom: 0.5rem;
+    background-color: #d3d3d3 /* light grey */
+}
+
+a.change-appointment-location-button:link {
+    background-color: #d3d3d3 /* light grey */
+}
+
+a.change-appointment-location-button:active {
+    background-color: #d3d3d3 /* light grey */
+}
+
+a.change-appointment-location-button:visited {
+    background-color: #d3d3d3 /* light grey */
+}
+
+a.change-appointment-location-button:hover {
+    background-color: #d3d3d3 /* light grey */
+}
+
+.date-header {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.time-column {
+    text-align: center;
+}
+
+.time-slot {
+    width: 5rem;
+}
+
+.time-slot-unavailable {
+    background-color: #d3d3d3 /* light grey */
+}
+
+a.time-slot-unavailable:link {
+    background-color: #d3d3d3 /* light grey */
+}
+
+a.time-slot-unavailable:active {
+    background-color: #d3d3d3 /* light grey */
+}
+
+a.time-slot-unavailable:visited {
+    background-color: #d3d3d3 /* light grey */
+}
+
+a.time-slot-unavailable:hover {
+    background-color: #d3d3d3 /* light grey */
+}
+
+.confirm-appointment-button-panel {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.confirm-appointment-health-professional-label {
+    font-size: 1.2rem;
+}
+
+.schedule-appointment-notice {
+    font-size: 0.8rem;
+    color: #808080; /* grey */
+}
