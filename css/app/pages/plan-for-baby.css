@@ -1,0 +1,52 @@
+.plan_item_panel {
+    padding-bottom: 0;
+}
+
+.plan_item_icon_panel {
+    text-align: right;
+}
+
+.plan_item_icon {
+    font-size: 2rem;
+}
+
+.parenting_guide_icon {
+    color: green;
+}
+
+.plan_item_icon_text_panel {
+    line-height: 2rem;
+}
+
+.plan_item_icon_text {
+    font-size: 1.2rem;
+}
+
+.plan_item_content {
+    margin-top: 1rem;
+}
+
+.plan_item_action_button {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+a.action_button_inactive:link {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.action_button_inactive:active {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.action_button_inactive:visited {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.action_button_inactive:hover {
+    background-color: #d3d3d3; /* light grey */
+}
+
+.connect_with_health_professional_icon {
+    color: #191970; /* midnightblue */
+}

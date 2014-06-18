@@ -1,3 +1,19 @@
+a.tab_bar_title:link {
+    color: #fff; /* white */
+}
+
+a.tab_bar_title:active {
+    color: #fff; /* white */
+}
+
+a.tab_bar_title:visited {
+    color: #fff; /* white */
+}
+
+a.tab_bar_title:hover {
+    color: #fff; /* white */
+}
+
 .nav-section-centered {
     text-align: center;
 }
