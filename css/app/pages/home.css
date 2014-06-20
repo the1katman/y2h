@@ -8,28 +8,34 @@
     text-align: center;
 }
 
+.workflow-icon-panel {
+    vertical-align: sub;
+}
+
 .workflow-icon {
     font-size: 3.75rem;
 }
 
-.small-icon-text {
+.workflow-icon-text {
+    margin-left: 2.5rem;
+    vertical-align: super;
     font-size: 1.15rem;
     text-transform: uppercase;
 }
 
-a.small-icon-text:link {
+a.workflow-icon-text:link {
     color: #000; /* black */
 }
 
-a.small-icon-text:active {
+a.workflow-icon-text:active {
     color: #000; /* black */
 }
 
-a.small-icon-text:visited {
+a.workflow-icon-text:visited {
     color: #000; /* black */
 }
 
-a.small-icon-text:hover {
+a.workflow-icon-text:hover {
     color: #000; /* black */
 }
 
