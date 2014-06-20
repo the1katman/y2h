@@ -1,0 +1,54 @@
+.plan-section-header {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.plan-item-content {
+    padding-left: 1.5rem;
+}
+
+.plan-item-action-button {
+    margin-bottom: 0;
+}
+
+.plan-item-action-button-inactive {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.plan-item-action-button-inactive:link {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.plan-item-action-button-inactive:active {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.plan-item-action-button-inactive:visited {
+    background-color: #d3d3d3; /* light grey */
+}
+
+a.plan-item-action-button-inactive:hover {
+    background-color: #d3d3d3; /* light grey */
+}
+
+input.support-member-input-text {
+    width: 15rem;
+}
+
+.return-home-button-panel {
+    text-align: center;
+}
+
+/* medium screens */
+@media only screen and (min-width: 40.063em) {
+    input.support-member-input-text {
+        width: 17rem;
+    }
+}
+
+/* large screens */
+@media only screen and (min-width: 64.063em) {
+    input.support-member-input-text {
+        width: 20rem;
+    }
+}
