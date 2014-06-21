@@ -44,23 +44,23 @@ a.online-appointment-call-icon-link:hover {
 }
 
 .online-appointment-call-mic-mute-icon {
-    color: #696969; /* dim grey */
+    color: #667; /* dim grey */
 }
 
 a.online-appointment-call-mic-mute-icon:link {
-    color: #696969; /* dim grey */
+    color: #667; /* dim grey */
 }
 
 a.online-appointment-call-mic-mute-icon:active {
-    color: #696969; /* dim grey */
+    color: #667; /* dim grey */
 }
 
 a.online-appointment-call-mic-mute-icon:visited {
-    color: #696969; /* dim grey */
+    color: #667; /* dim grey */
 }
 
 a.online-appointment-call-mic-mute-icon:hover {
-    color: #696969; /* dim grey */
+    color: #667; /* dim grey */
 }
 
 .online-appointment-call-add-call-icon {

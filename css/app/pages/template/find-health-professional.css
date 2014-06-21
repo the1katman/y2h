@@ -22,23 +22,23 @@
 }
 
 .online-now-active {
-    background-color: #32cd32; /*limegreen*/
+    background-color: #32cd32; /* lime green */
 }
 
 a.online-now-active:link {
-    background-color: #32cd32; /* limegreen */
+    background-color: #32cd32; /* lime green */
 }
 
 a.online-now-active:active {
-    background-color: #32cd32; /* limegreen */
+    background-color: #32cd32; /* lime green */
 }
 
 a.online-now-active:visited {
-    background-color: #32cd32; /* limegreen */
+    background-color: #32cd32; /* lime green */
 }
 
 a.online-now-active:hover {
-    background-color: #32cd32; /* limegreen */
+    background-color: #32cd32; /* lime green */
 }
 
 .rating-color {
@@ -46,23 +46,23 @@ a.online-now-active:hover {
 }
 
 .online-now-inactive {
-    background-color: #696969; /* dim grey */
+    background-color: #667; /* dim grey */
 }
 
 a.online-now-inactive:link {
-    background-color: #696969; /* dim grey */
+    background-color: #667; /* dim grey */
 }
 
 a.online-now-inactive:active {
-    background-color: #696969; /* dim grey */
+    background-color: #667; /* dim grey */
 }
 
 a.online-now-inactive:visited {
-    background-color: #696969; /* dim grey */
+    background-color: #667; /* dim grey */
 }
 
 a.online-now-inactive:hover {
-    background-color: #696969; /* dim grey */
+    background-color: #667; /* dim grey */
 }
 
 .media-content-panel {

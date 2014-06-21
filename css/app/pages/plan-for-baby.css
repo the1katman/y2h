@@ -1,52 +1,52 @@
-.plan_item_panel {
+.plan-item-panel {
     padding-bottom: 0;
 }
 
-.plan_item_icon_panel {
+.plan-item-icon-panel {
     text-align: right;
 }
 
-.plan_item_icon {
+.plan-item-icon {
     font-size: 2rem;
 }
 
-.parenting_guide_icon {
+.parenting-guide-icon {
     color: green;
 }
 
-.plan_item_icon_text_panel {
+.plan-item-icon-text-panel {
     line-height: 2rem;
 }
 
-.plan_item_icon_text {
+.plan-item-icon-text {
     font-size: 1.2rem;
 }
 
-.plan_item_content {
+.plan-item-content {
     margin-top: 1rem;
 }
 
-.plan_item_action_button {
+.plan-item-action-button {
     text-align: center;
     margin-bottom: 0.5rem;
 }
 
-a.action_button_inactive:link {
+a.action-button-inactive:link {
     background-color: #d3d3d3; /* light grey */
 }
 
-a.action_button_inactive:active {
+a.action-button-inactive:active {
     background-color: #d3d3d3; /* light grey */
 }
 
-a.action_button_inactive:visited {
+a.action-button-inactive:visited {
     background-color: #d3d3d3; /* light grey */
 }
 
-a.action_button_inactive:hover {
+a.action-button-inactive:hover {
     background-color: #d3d3d3; /* light grey */
 }
 
-.connect_with_health_professional_icon {
-    color: #191970; /* midnightblue */
+.connect-with-health-professional-icon {
+    color: #191970; /* midnight blue */
 }
